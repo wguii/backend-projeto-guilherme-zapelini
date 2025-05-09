@@ -13,7 +13,7 @@ import java.util.List;
 @Service
 public class PaisService {
 
-    private PaisDTO paisAtual;  // Variável para armazenar o país atual
+    private PaisDTO paisAtual;
     private List<String> dicasUsadas = new ArrayList<>();  // Lista de dicas já usadas
 
     public PaisDTO gerarPaisAleatorio() {

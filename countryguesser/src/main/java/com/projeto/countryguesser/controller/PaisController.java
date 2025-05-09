@@ -5,6 +5,9 @@ import com.projeto.countryguesser.entities.PaisDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+import java.util.Map;
+
 @RestController
 @RequestMapping("/jogo")
 public class PaisController {
@@ -24,4 +27,16 @@ public class PaisController {
         }
         return paisService.obterDica();
     }
+
+    @GetMapping("/sobre")
+    public Map<String, Object> dadosProjeto() {
+        return Map.of(
+                "integrante", List.of("Guilherme Zapelini"),
+                "nome_projeto", "Country Guesser"
+        );
+    }
+
+
+
+
 }

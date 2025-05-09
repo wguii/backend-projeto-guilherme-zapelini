@@ -11,8 +11,6 @@ public class PaisDTO {
     private Map<String, MoedaDTO> currencies;
     private List<String> dicas;  // Nova lista de dicas
 
-    // Getters e Setters
-
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
 
