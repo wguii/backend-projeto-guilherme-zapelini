@@ -1,6 +1,6 @@
 # **Backend - Country Guesser**
 
-Este é o backend para o protótipo do "Country Guesser", um jogo onde o objetivo é adivinhar um país com base em dicas fornecidas pelo sistema. Este protótipo foi desenvolvido parauma avaliação da disclipina de Backend da UNISATC.
+Este é o backend para o protótipo do "Country Guesser", um jogo onde o a dinâmica consiste em adivinhar países com base em dicas fornecidas pela aplicação. Este protótipo foi desenvolvido para uma avaliação da disclipina de Backend da UNISATC.
 
 
 ## **Tecnologias Utilizadas**
@@ -12,22 +12,17 @@ Este é o backend para o protótipo do "Country Guesser", um jogo onde o objetiv
 - **JSON** (para comunicação entre o front-end e o back-end)
 
 ## **Pré-requisitos**
--JDK 24 ou superior.
--Maven para dependências.
+- JDK 24 ou superior.
+
+- Maven para dependências.
 
 **Passos para executar**:
 
 Clone este repositório:
 
-https://github.com/SEU_USUARIO/country-guesser-backend.git
+https://github.com/wguii/country-guesser-backend.git
 
-Navegue até o diretório do projeto:
-
-*cd country-guesser-backend*
-
-Compile e rode o projeto usando o Maven:
-
-*mvn spring-boot:run*
+Rode na sua IDE de preferência utilizando Maven.
 
 O serviço estará rodando em http://localhost:8000.
 
